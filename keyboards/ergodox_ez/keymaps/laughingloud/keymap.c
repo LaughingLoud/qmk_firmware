@@ -2,9 +2,9 @@
 #include "version.h"
 
 #define BASE 0 // default layer
-#define SYMB 1 // symbols
-#define MDIA 2 // media keys
-#define CLMK 3 // colemak
+#define CLMK 1 // symbols
+#define SYMB 2 // media keys
+#define MDIA 3 // colemak
 
 enum custom_keycodes {
   EPRM = SAFE_RANGE,
